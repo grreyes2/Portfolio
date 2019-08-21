@@ -2,8 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.heading {
-  align-content: center;
-  background-color: gray;
-  max-width: 230px;
+.header {
+  align-items: center;
+  text-align: center;
+
+}
+
+.container {
+  background-image: url("me.jpg");
 }
