@@ -7,16 +7,59 @@
   </head>
   <body>
 
-    <h3>About Me</h3>
-    <div class="header">
+    <div class="row">
+      <div id="profileClmn" class="column">
+        <%= image_tag "me.JPG", :id => "profilePic" %>
+      </div>
+
+      <div id="divBio" class="column">
+        <p id="bio">My name is Gensel Reyes. I am a Software Engineer who specializes in web development.
+          This portfolio is created using the Ruby on Rails framework. </p>
+      </div>
 
     </div>
 
-    <p id="intro">
-     Hello, my name is Gensel Reyes. I love music and technology.
-      I am from Houston, TX and went to the University of Houston
-      and majored in Computer Information Systems.
-    </p>
+    <div id="work" class="row">
+
+      <div id="java">
+        <div data-aos="fade-up">
+          <p>Java</p>
+          <img src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo.png"/>
+        </div>
+      </div>
+
+      <div id="python">
+        <div data-aos="fade-up">
+          <p>Python</p>
+          <img src="https://img.icons8.com/ios/50/000000/python.png"/>
+        </div>
+      </div>
+
+      <div id="rails">
+        <div data-aos="fade-up">
+          <p>Ruby</p>
+          <img src="https://img.icons8.com/ios/50/000000/ruby-programming-language.png"/>
+        </div>
+      </div>
+
+        <div id="javascript">
+          <div data-aos="fade-up">
+            <p>JavaScript</p>
+            <img src="https://img.icons8.com/ios/50/000000/javascript.png"/>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="contact">
+        <h1>Contact</h1>
+
+      </div>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 
   </body>
 </html>

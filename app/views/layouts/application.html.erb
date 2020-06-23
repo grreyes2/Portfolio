@@ -5,11 +5,21 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
+    <nav class="navbar navbar-light bg-light justify-content-end">
+
+      <a id="about" href="#profileClmn">About</a>
+      <a href="#work">Work</a>
+      <a id="about" href="#contact">Contact</a>
+
+    </nav>
     <%= yield %>
+
   </body>
 </html>
