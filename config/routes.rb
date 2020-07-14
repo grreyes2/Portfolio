@@ -1,11 +1,6 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
 
-  get '/app/views/about' => 'about#about'
-
-  root 'welcome#index'
-
-  # root 'about#about'
+  root 'about#about'
 
 
 
