@@ -67,17 +67,73 @@ margin-right: 10%;
 }
 
 #work {
-  font-size: 50px;
+  font-size: 40px;
   text-align:center;
 }
 
-
-#projects {
-  justify-content: space-between;
-  height: 400px;
-  width: 95%;
-  margin: auto;
+//Experience
+.experience {
+  height: 500px;
+  text-align: center;
 }
+
+.card {
+  background-color: white;
+  color: #2274ac;
+  margin: 10px;
+  text-align: left;
+}
+
+
+#experience {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30%;
+
+}
+
+.lp-pom-text ul, li {
+  list-style-type: square !important;
+}
+
+
+//Projects
+
+.projects2 {
+
+  width: 80%;
+  margin: auto;
+
+}
+
+#ml {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+
+
+}
+
+#js {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+}
+
+#python {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+
+}
+
+#ruby {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+
+}
+
 
 
 //Contact
