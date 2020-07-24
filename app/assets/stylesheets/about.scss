@@ -43,14 +43,14 @@ body {
   color: white;
 }
 
-//Skills
+//Work
 
-.skills{
+.work{
   font-family: "courier new";
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 
@@ -91,7 +91,11 @@ margin-right: 10%;
 #experience {
   width: 90%;
   margin: auto;
+<<<<<<< HEAD
   margin-bottom: 65%;
+=======
+  margin-bottom: 30%;
+>>>>>>> parent of e0cee16... Bumped bootstrap to 4.3.1 due to vulnerability
 
 }
 
@@ -103,11 +107,18 @@ margin-right: 10%;
 
 //Projects
 
+<<<<<<< HEAD
 .projects {
 
 width: 96%;
 margin: auto;
 padding-bottom: 15%;
+=======
+.projects2 {
+
+  width: 80%;
+  margin: auto;
+>>>>>>> parent of e0cee16... Bumped bootstrap to 4.3.1 due to vulnerability
 
 }
 
