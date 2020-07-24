@@ -31,7 +31,7 @@ body {
 //Bio
 
 .bio {
-  background-color: #0B4F6C;
+  background-color: #08415C;
   height: 400px;
   width: 100%;
 }
@@ -53,7 +53,8 @@ body {
   margin-bottom: 10%;
 }
 
-.technologies {
+
+.tools {
   align-items: center;
   float: left;
   margin-left: 10%;
@@ -79,16 +80,18 @@ margin-right: 10%;
 
 .card {
   background-color: white;
-  color: #2274ac;
+  border-color: #08415C;
+  border-width: medium;
+  color: black;
   margin: 10px;
   text-align: left;
 }
 
 
 #experience {
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 40%;
+  margin-bottom: 65%;
 
 }
 
@@ -97,41 +100,14 @@ margin-right: 10%;
 }
 
 
+
 //Projects
 
 .projects {
 
+width: 96%;
 margin: auto;
-padding-bottom: 100px;
-
-
-}
-
-#ml {
-  background-color: black;
-  height: 200px;
-  width: 200px;
-
-
-}
-
-#js {
-  background-color: black;
-  height: 200px;
-  width: 200px;
-}
-
-#python {
-  background-color: black;
-  height: 200px;
-  width: 200px;
-
-}
-
-#ruby {
-  background-color: black;
-  height: 200px;
-  width: 200px;
+padding-bottom: 15%;
 
 }
 
@@ -141,7 +117,32 @@ padding-bottom: 100px;
 
 #contact {
   text-align: center;
-  background-color: #252627;
+  background-color: #CC2936;
   height: 600px;
   width: 100%;
+}
+
+.field {
+  width: 40%;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.label {
+  color: white;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+//Footer
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #262626;
 }

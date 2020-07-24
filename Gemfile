@@ -65,4 +65,4 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
-gem 'faraday'
+gem 'mail_form'
