@@ -1,10 +1,9 @@
 class AboutController < ApplicationController
   def about
-    @message = Message.new
   end
 
 
-   def message
+   def create
      @message = Message.new(params[:contact])
      @message.request = request
      if @message.deliver

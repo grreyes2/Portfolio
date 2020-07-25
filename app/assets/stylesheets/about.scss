@@ -73,9 +73,13 @@ margin-right: 10%;
 }
 
 //Experience
-.experience {
-  height: 500px;
+
+#experience {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
   text-align: center;
+  height: 500px;
 }
 
 .card {
@@ -85,13 +89,6 @@ margin-right: 10%;
   color: black;
   margin: 10px;
   text-align: left;
-}
-
-
-#experience {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 65%;
 }
 
 .lp-pom-text ul, li {
@@ -107,8 +104,18 @@ margin-right: 10%;
 
 width: 96%;
 margin: auto;
-padding-bottom: 15%;
+margin-top: 65%;
+padding-bottom: 10%;
 
+}
+
+@media screen and (max-width: 800px) {
+  .projects{
+    width: 96%;
+    margin: auto;
+    margin-top: 1000px;
+    padding-bottom: 10%;
+  }
 }
 
 
