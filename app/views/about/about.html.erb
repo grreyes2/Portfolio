@@ -172,11 +172,20 @@
 
   <br>
   <br>
-  <br>
+
   <%= form_for @contact, url: contact_about_index_path do |f| %>
+    <% if flash[:notice] %>
+      <div id="notice">
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
+
     <% if flash[:error].present? %>
         <p> flash[:error]</p>
     <% end %>
+
+    <br>
+
     <%= f.label :name, class: 'label'%> <br>
     <%= f.text_field :name, required: true, class: 'field'  %>
 
